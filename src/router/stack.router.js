@@ -6,14 +6,14 @@ import Map from "../screens/Map";
 const Stack = createStackNavigator();
 
 export default function StackRouter() {
-    return(
+    return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen 
+            <Stack.Screen
                 name="Home"
                 component={Home}
             />
 
-            <Stack.Screen 
+            <Stack.Screen
                 name="Map"
                 component={Map}
             />
